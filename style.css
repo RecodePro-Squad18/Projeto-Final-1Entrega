@@ -1,0 +1,723 @@
+/*Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Edu+VIC+WA+NT+Beginner:wght@700&display=swap');
+
+/*PALETA DE CORES DO SITE
+#495C83  |#C8B6E2
+#7A86B6  |#A8A4CE*/
+
+
+
+/*___PAGINA HOME___*/
+.home {
+    background-color: #495C83;
+}
+
+span{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-decoration: underline; 
+}
+
+/*___NAVBAR___*/
+.nav-title a {
+    font-size: 1.7rem;
+    color: white;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-decoration: underline;
+    margin-left: 40px;
+    display: flex;
+
+}
+
+.navbar-nav a {
+    margin-right: 50px;
+    margin-left: 100px;
+    color: aliceblue;
+    font-weight: 700;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+
+}
+
+.nav-bar nav {
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/*___PARTE INFORMATIVA SOBRE O SITE__*/
+.main_home img {
+    width: 280px;
+
+}
+
+.main_home p {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+
+}
+
+.main_home {
+    display: flex;
+    justify-content: space-around;
+    height: 520px;
+    flex-wrap: wrap;
+}
+
+
+.img_1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    background-color: #7A86B6;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+}
+
+.img_2 {
+    flex-direction: column;
+    background-color: #7A86B6;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.img_3 {
+    margin-left: 10px;
+    background-color: #7A86B6;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.icon-down {
+    display: flex;
+    margin-left: 50%;
+}
+
+/*____Biblioteca_____*/
+
+.biblioteca {
+    background-color: #495C83;
+}
+
+/*____CAROUSEL____*/
+.books-part {
+    width: 90%;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin-left: 5%;
+    border: wheat 6px solid;
+    border-radius: 10px;
+}
+
+.books-part img {
+    height: 443px;
+    width: 100%;
+
+}
+
+/*____CARDS LIVROS CATALOGO*/
+
+.catalogo-part {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.catalogo-livros {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #7A86B6;
+    width: 60%;
+    margin-right: 240px;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding-bottom: 20px;
+
+}
+
+.catalogo-livros h3 {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.catalogo-livros p {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.catalogo-title h2 {
+    font-weight: bold;
+    color: antiquewhite;
+    opacity: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.catalogo-livros button {
+    width: 100px;
+    background: none;
+    border: none;
+    opacity: 100%;
+}
+
+.catalogo-livros img {
+    width: 1 100%;
+    height: 210px;
+}
+
+.catalogo-livros img:hover {
+    transform: scale(1.1);
+    border: solid aliceblue 8px;
+
+}
+
+.div-1 {
+    font-weight: bold;
+    color: azure;
+    margin-top: 10px;
+    width: 700px;
+    margin-left: 20px;
+}
+
+.div-2 {
+    color: azure;
+    font-weight: bold;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.div-2 hr {
+    margin-left: 8px;
+}
+
+.div-3 {
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: azure;
+    font-weight: bold;
+}
+
+.div-3 hr {
+    margin-left: 8px;
+}
+
+.div-4 {
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.div-4 hr {
+    margin-left: 8px;
+}
+
+.page-filtro {
+    margin: 5px;
+    background-color: #7A86B6;
+    border-radius: 5px;
+    height: 750px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.page-filtro p {
+    margin-left: 20px;
+    color: azure;
+    font-weight: 500;
+
+}
+
+.page-filtro p:hover {
+    color: black;
+    font-weight: 900;
+}
+
+.page-filtro h6 {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #ddd7e4;
+}
+
+/*_____PAGINA ESCRITA____*/
+
+.escrita {
+    background-color: #495C83;
+}
+
+.pratique-escri {
+    background-color: #7A86B6;
+    border-radius: 10px;
+    margin: 30px;
+    padding-bottom: 20px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.title-escrita {
+    text-align: center;
+    font-weight: bold;
+    color: antiquewhite;
+    text-decoration: underline;
+
+}
+
+.prompt-escri {
+    font-weight: 500;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+}
+
+.prompt-escri textarea {
+    height: 250px;
+    background-color: #A8A4CE;
+    border: solid white 2px;
+}
+
+.button-submit button {
+    width: 99%;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: #A8A4CE;
+    border: 1px white solid;
+
+}
+
+/*___PAGE AULAS____*/
+.aulas {
+    background-color: #495C83;
+}
+
+/*______Cards aulas do youtube*/
+.videos-aulas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: #7A86B6;
+    padding: 10px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+
+.aulas-title {
+    text-align: center;
+    margin-top: 10px;
+    color: #ddd7e4;
+
+}
+
+.videos-aulas div {
+    border-radius: 30px;
+
+
+
+}
+
+.videos-aulas p {
+    font-weight: 700;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.videos-aulas h5 {
+    font-weight: 900;
+    text-decoration: underline;
+
+}
+
+.div-a1 div {
+    background-color: #A8A4CE;
+}
+
+.div-a2 div {
+    background-color: #A8A4CE;
+}
+
+.div-a3 div {
+    background-color: #A8A4CE;
+}
+
+.div-a4 div {
+    background-color: #A8A4CE;
+}
+
+.div-a5 div {
+    background-color: #A8A4CE;
+}
+
+.div-a6 div {
+    background-color: #A8A4CE;
+}
+
+.div-a1 img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.div-a2 img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.div-a3 img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.div-a4 img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.div-a5 img {
+    width: 100%;
+    height: 100%;
+}
+
+.div-a6 img {
+    width: 100%;
+    height: 100%;
+}
+
+/*__________PERFIL PESSOAL_______*/
+
+.perfil {
+    background-color: #495C83;
+    
+}
+
+.perfil-infos {
+    display: flex;
+    background-color: #A8A4CE;
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 80px;
+    border-radius: 20px;
+    color: #ddd7e4;
+    font-weight: bold;
+}
+
+.part-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.part-1 h4 {
+    margin-left: 20px;
+}
+
+.part-1 h6 {
+    margin-top: 10px;
+}
+
+.part-1 h5 {
+    margin-top: 100px;
+}
+
+.img-perfil img {
+    width: 150px;
+    border-radius: 100px;
+    margin-left: 40px;
+    border: 1px grey solid;
+}
+
+.part-1 button {
+    border-radius: 9999px;
+    height: 50px;
+    width: 50px;
+    background-color: #A8A4CE;
+    margin: 2px;
+    border: none;
+
+}
+
+.part-1 button img {
+    width: 100%;
+    border-radius: 9999px;
+
+}
+
+.part-1 button img:hover {
+    transform: scale(1.4);
+    border: #ddd7e4 2px solid;
+}
+
+.button-amg {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    margin-left: none;
+}
+
+.part-2 {
+    width: 100%;
+    margin-left: 30px;
+    height: 500px;
+}
+
+.catalogo-livros2 img:hover {
+    transform: scale(1.1);
+    border: solid aliceblue 8px;
+}
+
+    .catalogo-livros2 button {
+        width: 100px;
+        background: none;
+        border: none;
+        opacity: 100%;
+    }
+    .catalogo-livros2 h3{
+        margin-left: 10px;
+    }
+    
+    .catalogo-livros2 img {
+        width: 1 100%;
+        height: 210px;
+        margin-top: 15px;
+    }
+    .catalogo-livros2{
+        background-color: #7A86B6;
+        width: 850px;
+        height: 300px;
+        border-radius: 10px;
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        text-decoration: underline;
+
+        
+    }
+
+.div-recente {
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+/*______Score CSS____*/
+.score {
+    background-color: #A8A4CE;
+    width: 130px;
+    height: 130px;
+    border: 1px solid white;
+    border-radius: 9999px;
+    margin-left: 40px;
+}
+
+.score-infos {
+    text-align: center;
+    border: #495C83 5px solid;
+    background-color: #7A86B6;
+    border-radius: 9999px;
+    height: 100px;
+    font-weight: bold;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 13px;
+    margin-left: 13px;
+}
+
+.score-infos p {
+    margin-top: 6px;
+}
+
+/*______PAGINA DE CONFIRMAÇAO DA PRATICA DE ESCRITA________*/
+
+.img-h1 {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    background-color: #7A86B6;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+.img-h1 img {
+    width: 150px;
+    margin-left: 220px;
+
+}
+
+.img-h1 h1 {
+    text-align: center;
+    color: #ddd7e4;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: bolder;
+
+}
+
+.img-h1 button {
+    width: 200px;
+    height: 50px;
+    margin-left: 210px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: 700;
+    border: #ddd7e4;
+    border-radius: 50px;
+
+}
+
+.confirm {
+    background-color: #495C83;
+}
+
+footer {
+    background-color: #A8A4CE;
+    border: #ddd7e4 1px solid;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+
+
+
+/*_______Responsividade do site______*/
+
+@media (max-width:650px) {
+    .home footer {
+        margin-top: 1150px;
+    }
+
+    .books-part img {
+        height: 250px;
+    }
+
+    .catalogo-livros {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+
+    }
+
+    .catalogo-part {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .biblioteca footer {
+        margin-top: 50px;
+    }
+
+    .page-filtro {
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .prompt-escri {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .pratique-escri {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .escrita footer {
+        margin-top: 320px;
+    }
+
+    .videos-aulas {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .videos-aulas img {
+        width: 500px;
+        border-radius: 10px;
+    }
+
+    .aulas footer {
+        margin-top: 50px;
+    }
+
+    .perfil {
+        flex-direction: column;
+    }
+
+    .perfil-infos {
+        flex-direction: column;
+        width: 90%;
+        height: 700px;
+    }
+
+    .part-1 {
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+    .part-2 {
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 5px;
+        height: 500px;
+        width: 99%;
+    }
+
+    .part-2 button {
+        width: 45px;
+        height: 200px;
+    }
+
+    .div-recente img {
+        margin-right: 50px;
+        width: 100px;
+        height: 150px;
+    }
+
+    .img-h1 {
+        margin-left: 25px;
+        width: 90%;
+        margin-top: 300px;
+    }
+
+    .img-h1 img {
+        margin-left: 110px;
+    }
+
+    .img-h1 button {
+        margin-left: 80px;
+    }
+
+    .perfil footer{
+        margin-top: 400px;
+    }
+
+    .img-perfil{
+        margin-left: 55px;
+    }
+
+    .part-1 h4{
+        margin-left: 80px;
+    }
+
+    .catalogo-livros2{
+        width: 99%;
+        display: flexs;
+        flex-direction: column;
+    }
+
+}
